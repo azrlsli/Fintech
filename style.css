@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-preto-ebony: #222222;
+    --cor-preto-space: #454545;
+    --cor-amarelo-web: #F6DC43;
+    --cor-branco: #ffffff;
+    --font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--cor-preto-ebony);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: var(--cor-amarelo-web);
+    font-size: 1rem;
+}
+
+.btn-login {
+    background-color: var(--cor-preto-space);
+    color: var(--cor-branco);
+    font-size: 1rem;
+}
+
+.btn-login:hover {
+    border: 1px solid var(--cor-preto-space);
+    color: var(--cor-preto-space);
+}
+
+.resigtre {
+    color: var(--cor-preto-ebony);
+    font-size: 1rem;
+}
+
+.cabecalho {
+    background-color: var(--cor-amarelo-web);
+}
+
+.itens {
+    display: flex;
+    gap: 16px;
+}
+
+.saldo-card {
+    border-radius: 15px;
+    background-color: var(--cor-preto-space);
+}
+
+.card-body {
+    border: 1px solid var(--cor-amarelo-web);
+    background-color: var(--cor-preto-space);
+}
+
+.btn-outline-warning {
+    background-color: var(--cor-amarelo-web);
+    color: var(--cor-preto-ebony);
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--cor-amarelo-web);
+    background-color: transparent;
+    color: var(--cor-amarelo-web);
+}
+
+footer a small {
+    font-size: 0.75rem;
+}
+
+.rodape {
+    background-color: var(--cor-amarelo-web);
+}
